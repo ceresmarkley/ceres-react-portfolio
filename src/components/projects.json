@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "title": "maryze",
+        "image": "/assets/maryze.png",
+        "repo": "https://github.com/ceresmarkley/maryze",
+        "deployed": "https://maryze-t1p2-1c897d7fd819.herokuapp.com/"
+    },
+    {
+        "id": 1,
+        "title": "Krapyak",
+        "image": "/assets/krapyak.PNG",
+        "repo": "https://github.com/Ronin1702/krapyak",
+        "deployed": "https://ronin1702.github.io/krapyak/"
+    },
+    {
+        "id": 2,
+        "title": "Tech Blog",
+        "image": "/assets/tech-blog.png",
+        "repo": "https://github.com/ceresmarkley/tech-blog",
+        "deployed": "https://tech-blog-v16-9f64c5daf8fc.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "image": "/assets/weather-dash.png",
+        "repo": "https://github.com/ceresmarkley/weather-dashboard",
+        "deployed": "https://ceresmarkley.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "title": "Full Day Scheduler",
+        "image": "/assets/full-day-scheduler.PNG",
+        "repo": "https://github.com/ceresmarkley/full-day-scheduler",
+        "deployed": "https://ceresmarkley.github.io/full-day-scheduler/"
+    },
+    {
+        "id": 5,
+        "title": "Note Taker",
+        "image": "/assets/note-taker.png",
+        "repo": "https://github.com/ceresmarkley/note-taker",
+        "deployed": "https://note-taker-v16-f8f3c838c7c9.herokuapp.com/"
+    }
+]
