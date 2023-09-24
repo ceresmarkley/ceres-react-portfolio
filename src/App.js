@@ -2,11 +2,11 @@ import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import About from './components/pages/About';
-import Portfolio from './components/pages/Portfolio';
+import Portfolio from './components/pages/Portfolio.js';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
-import background from './assets/pexels-jaymantri-5412.jpg'
+import background from './assets/space-background.jpg'
 
 
 const App = () =>
