@@ -8,15 +8,15 @@
     },
     {
         "id": 1,
-        "title": "Krapyak",
-        "image": "/assets/krapyak.PNG",
+        "title": "krapyak",
+        "image": "/assets/krapyak.png",
         "repo": "https://github.com/Ronin1702/krapyak",
         "deployed": "https://ronin1702.github.io/krapyak/"
     },
     {
         "id": 2,
         "title": "Tech Blog",
-        "image": "/assets/tech-blog.png",
+        "image": "/assets/techblog.png",
         "repo": "https://github.com/ceresmarkley/tech-blog",
         "deployed": "https://tech-blog-v16-9f64c5daf8fc.herokuapp.com/"
     },
@@ -30,7 +30,7 @@
     {
         "id": 4,
         "title": "Full Day Scheduler",
-        "image": "/assets/full-day-scheduler.PNG",
+        "image": "/assets/fullday-sched.png",
         "repo": "https://github.com/ceresmarkley/full-day-scheduler",
         "deployed": "https://ceresmarkley.github.io/full-day-scheduler/"
     },

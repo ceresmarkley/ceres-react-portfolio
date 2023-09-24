@@ -9,8 +9,8 @@ const styles = {
         backgroundColor:"white"
     },
     logo: {
-        width: 30,
-        height: 30
+        width: 50,
+        height: 50
     },
     links: {
         marginRight: 10
@@ -34,6 +34,7 @@ function Nav() {
                 alt="CMC"
                 loading="lazy"
                 style={styles.logo}/>
+                <h5 className="d-inline align-middle"> Ceres Markley Cook</h5>
         </a>
         
         <button

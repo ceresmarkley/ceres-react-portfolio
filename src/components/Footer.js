@@ -26,13 +26,7 @@ const Footer = () => (
         style={styles.footer}>
         
         <div className="container text-center justify-content-center">
-            <img
-                src={logo}
-                alt="jh"
-                loading="lazy"
-                style={styles.logo} />
-            
-            <br /><br />
+            <h5> Designed, Coded, and Cultivated 🌱 by Ceres Markley Cook</h5>
             
             
             <a
