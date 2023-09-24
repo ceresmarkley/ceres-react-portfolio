@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../assets/jh-resume-01.png";
+import resume from "../../assets/ceres-resume-1.png";
 
 
 const styles = {
