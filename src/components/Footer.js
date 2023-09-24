@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/jh-logo.png';
+import logo from '../assets/markley-logo.png';
 import linkedin from '../assets/linkedin-01.png';
 import github from '../assets/github-01.png';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { emailCheck } from '../utils/helper';
+import { emailCheck } from '../../utils/helper';
 
 const styles = {
     jumbotron: {
