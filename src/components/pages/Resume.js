@@ -28,7 +28,7 @@ const Resume = () => (
             
             <p className="lead text-center">
                 <a
-                    href=""
+                    href="https://github.com/ceresmarkley/ceres-react-portfolio/blob/main/src/assets/ceres-resume.pdf"
                     target="_blank">
                     Download resume PDF
                 </a>
