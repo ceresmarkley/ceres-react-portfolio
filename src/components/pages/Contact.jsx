@@ -84,7 +84,8 @@ export default function Contact() {
     return (
         <div className="container">
         <div className="jumbotron shadow" style={styles.jumbotron}>
-                <h3>Hello {userName}, please share your thoughts with me!</h3>
+                <h3 className='text-center'>Hello {userName}! Interested in working together?</h3>
+                <p className='text-center'>Fill out the form below with a brief description of why you are reaching out in the 'Subject' section!</p>
                 <form className="form" onSubmit={handleFormSubmit}>
                     <div className="input-group mb-3">
                         <span className="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
@@ -118,13 +119,13 @@ export default function Contact() {
                         />
                     </div>
                     <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default"> Text :</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default"> Subject :</span>
                         <input
                             value={message}
                             name="message"
                             onChange={handleInputChange}
                             type="text"
-                            placeholder="Leave a message here"
+                            placeholder="You should briefly describe why you are reaching out here."
                             required
                             className="form-control"
                             aria-label="Sizing example input"
