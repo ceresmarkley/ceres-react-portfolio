@@ -61,5 +61,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Home Page
 
-![image](https://github.com/ceresmarkley/ceres-react-portfolio/assets/129554518/e13a5eaf-0c34-4028-8925-c6b50e37e996)
+![image](https://github.com/ceresmarkley/ceres-react-portfolio/assets/129554518/e13a5eaf-0c34-4028-8925-c6b50e37e996)   
+
+[Back to Top of Page](#table-of-contents)
 
