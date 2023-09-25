@@ -82,7 +82,7 @@ export default function Contact() {
 
 
     return (
-        <div className="container-sm container-md container-lg container-xl">
+        <div className="container">
         <div className="jumbotron shadow" style={styles.jumbotron}>
                 <h3>Hello {userName}, please share your thoughts with me!</h3>
                 <form className="form" onSubmit={handleFormSubmit}>
@@ -135,13 +135,14 @@ export default function Contact() {
                     <br />
                     <button type="submit" className="btn btn-secondary btn-lg">Submit</button>
                 </form>
-            </div>
+            
             <div className="container text-center">
                 {errorMessage && (
-                    <div style={{ padding: '10px' }}>
+                    <div>
                         <p className="error-text" style={{ fontSize: '20px' }}>{errorMessage}</p>
                     </div>
                 )}
+                </div>
             </div>
         </div>
 );
