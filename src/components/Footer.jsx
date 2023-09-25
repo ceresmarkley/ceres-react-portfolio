@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/markley-logo.png';
 import linkedin from '../assets/linkedin-01.png';
 import github from '../assets/github-01.png';
 
@@ -7,10 +6,6 @@ const styles = {
     footer: {
         backgroundColor:"white",
         flexShrink:"none"
-    },
-    logo: {
-        height: 75,
-        width: 75
     },
     icon: {
         height: 20,
