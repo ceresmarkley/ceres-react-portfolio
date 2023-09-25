@@ -39,7 +39,7 @@ const About = () => (
                         I am an Operations Leadership professional and full-stack web developer currently living in Richmond, VA.
                     </p>
 
-                    <p>
+                    <p className='mb-5'>
                         I am a dedicated and self-starting individual who cares about others and works well across multiple teams and networks. I love learning, challenging what I know, and problem solving.
                     </p>
 
