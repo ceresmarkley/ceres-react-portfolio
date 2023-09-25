@@ -16,7 +16,7 @@ const styles = {
         height: 20,
         paddingLeft: 10,
         paddingRight: 10
-    }
+    },
 }
 
 
