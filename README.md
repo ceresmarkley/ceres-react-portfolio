@@ -1,4 +1,5 @@
-# Ceres React Portfolio [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
+# Ceres React Portfolio 
+[![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
 
 ## Table of Contents
 
