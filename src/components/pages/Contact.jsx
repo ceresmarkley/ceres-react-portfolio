@@ -72,7 +72,7 @@ export default function Contact() {
             return;
         }
 
-        alert(`Hello ${userName}, we will content you soon!`);
+        alert(`Hello ${userName}, we will contact you soon!`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setUserName('');
