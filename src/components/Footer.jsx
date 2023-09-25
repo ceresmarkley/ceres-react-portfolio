@@ -1,6 +1,7 @@
 import React from 'react';
 import linkedin from '../assets/linkedin-01.png';
 import github from '../assets/github-01.png';
+import instagram from '../assets/instagram-01.png';
 
 const styles = {
     footer: {
@@ -43,6 +44,17 @@ const Footer = () => (
                 <img
                     src={github}
                     alt="github"
+                    style={styles.icon} />
+            </a>
+
+            <a
+                href="https://www.instagram.com/ceresmarkley/"
+                rel="noreferrer"
+                target="_blank">
+                
+                <img
+                    src={instagram}
+                    alt="instagram"
                     style={styles.icon} />
             </a>
 
