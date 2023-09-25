@@ -6,7 +6,7 @@
 * [Acceptance Criteria](#acceptance-criteria)
 * [Technology](#technology)
 * [Links](#links)
-* [License](#license)
+* [Home Page](#home-page)
 
 ## User Story
 
@@ -59,6 +59,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * Deployed Github Pages: [Ceres' React Portfolio!](https://ceresmarkley.github.io/ceres-react-portfolio/#/)
 
 
-## License
+## Home Page
 
-* This application is licensed by [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE).
+![image](https://github.com/ceresmarkley/ceres-react-portfolio/assets/129554518/e13a5eaf-0c34-4028-8925-c6b50e37e996)
+
