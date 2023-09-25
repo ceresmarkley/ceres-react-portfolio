@@ -31,7 +31,7 @@ class Portfolio extends Component {
                             <div className="row">
                                 {this.state.projects.map(project => (
                                     <ProjectCard
-                                        id={project.id}
+                                        key={project.id}
                                         title={project.title}
                                         image={process.env.PUBLIC_URL + project.image}
                                         repo={project.repo}

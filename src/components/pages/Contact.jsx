@@ -86,8 +86,8 @@ export default function Contact() {
         <div className="jumbotron shadow" style={styles.jumbotron}>
                 <h3>Hello {userName}, please share your thoughts with me!</h3>
                 <form className="form" onSubmit={handleFormSubmit}>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
                         <input
                             value={email}
                             name="email"
@@ -95,15 +95,15 @@ export default function Contact() {
                             type="email"
                             placeholder="Email address"
                             required
-                            class="form-control"
+                            className="form-control"
                             aria-label="Sizing example input"
                             aria-describedby="inputGroup-sizing-default"
                             // check if the input is empty
                             onBlur={handleBlur}
                         />
                     </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Name:</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Name:</span>
                         <input
                             value={userName}
                             name="userName"
@@ -111,14 +111,14 @@ export default function Contact() {
                             type="text"
                             placeholder="Name"
                             required
-                            class="form-control"
+                            className="form-control"
                             aria-label="Sizing example input"
                             aria-describedby="inputGroup-sizing-default"
                             onBlur={handleBlur}
                         />
                     </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default"> Text :</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default"> Text :</span>
                         <input
                             value={message}
                             name="message"
@@ -126,7 +126,7 @@ export default function Contact() {
                             type="text"
                             placeholder="Leave a message here"
                             required
-                            class="form-control"
+                            className="form-control"
                             aria-label="Sizing example input"
                             aria-describedby="inputGroup-sizing-default"
                             onBlur={handleBlur}
