@@ -31,16 +31,20 @@ const About = () => (
                         src={headshot}
                         alt="Ceres Cook" />
                     
-                    <p className="lead"><em>
-                        Hi, I'm Ceres Cook!
-                    </em></p>
+                    <h5 className="mb-5 text-center">
+                        What's up! I'm Ceres Cook, and welcome to my portfolio!
+                    </h5>
 
                     <p>
                         I am an Operations Leadership professional and full-stack web developer currently living in Richmond, VA.
                     </p>
 
                     <p>
-                        I am a dedicated and self-starting individual who cares about others and works well across multiple teams and networks. I am insatiably curious and love problem solving. In my free time, I enjoy gaming, art, music and puppies 🐶.
+                        I am a dedicated and self-starting individual who cares about others and works well across multiple teams and networks. I love learning, challenging what I know, and problem solving.
+                    </p>
+
+                    <p>In my free time, I enjoy gaming, watching great cinema, listening to punk and hip-hop and most importantly puppies! 🐶
+
                     </p>
 
                     <p>
