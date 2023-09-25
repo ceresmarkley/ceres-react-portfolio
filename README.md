@@ -1,4 +1,4 @@
-# ceres-react-portfolio [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
+# Ceres React Portfolio [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
 
 ## Table of Contents
 
@@ -63,5 +63,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ![image](https://github.com/ceresmarkley/ceres-react-portfolio/assets/129554518/e13a5eaf-0c34-4028-8925-c6b50e37e996)   
 
-[Back to Top of Page](#table-of-contents)
+[Back to Top of Page](#ceres-react-portfolio)
 
