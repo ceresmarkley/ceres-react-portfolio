@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../assets/selfie.jpg'
+import headshot from '../../assets/selfie.png'
 
 const styles = {
     jumbotron: {
