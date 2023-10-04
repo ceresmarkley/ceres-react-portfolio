@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ceres-react-portfolio/static/css/main.4169f80c.css",
-    "main.js": "/ceres-react-portfolio/static/js/main.391e32d2.js",
+    "main.js": "/ceres-react-portfolio/static/js/main.ed4f93dd.js",
     "static/media/selfie.png": "/ceres-react-portfolio/static/media/selfie.9013c6b5c8baeecb325f.png",
     "static/media/space-background.jpg": "/ceres-react-portfolio/static/media/space-background.23c83c43fe028848b475.jpg",
     "static/media/ceres-resume-1.png": "/ceres-react-portfolio/static/media/ceres-resume-1.20d5e71c1e1710a2e0f7.png",
@@ -9,10 +9,10 @@
     "static/media/instagram-01.png": "/ceres-react-portfolio/static/media/instagram-01.785c6caa381de6f1d706.png",
     "index.html": "/ceres-react-portfolio/index.html",
     "main.4169f80c.css.map": "/ceres-react-portfolio/static/css/main.4169f80c.css.map",
-    "main.391e32d2.js.map": "/ceres-react-portfolio/static/js/main.391e32d2.js.map"
+    "main.ed4f93dd.js.map": "/ceres-react-portfolio/static/js/main.ed4f93dd.js.map"
   },
   "entrypoints": [
     "static/css/main.4169f80c.css",
-    "static/js/main.391e32d2.js"
+    "static/js/main.ed4f93dd.js"
   ]
 }
