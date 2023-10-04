@@ -23,10 +23,10 @@ const Contact = () => (
         <div className="jumbotron shadow" style={styles.jumbotron}>
             
             <h1 className="display-4 text-center">
-                I love to collab! Let's work together!
+                I love to collab! 🎨 Let's work together!
             </h1><br/>
 
-            <h2 className='text-center'> If you are in need of; </h2><br/>
+            <h2 className='text-center'> If you are in need of: </h2>
             <ul className="list-group">
                 <p className="lead text-center"> 🌎 A full-stack web developer.. </p>
                 <p className="lead text-center"> 🚀 having a website or application built.. </p>
@@ -38,23 +38,24 @@ const Contact = () => (
             
             
             
-            <h5 className="text-center">
+            
+            <h5 className="text-center d-flex justify-content-center">
                  
                 <a className="text-center"
                     href="mailto:ceres.markley@gmail.com"
                     rel="noreferrer"
                     target="_blank">
                     <img src="https://img.icons8.com/fluent/48/000000/gmail.png" alt="Gmail" style={styles.icon}/>
-                    ceres.markley@gmail.com  
+                    My Email  
                 </a>
-                <br/>
-                <br/>
-                <a className="text-center"
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <a className="text-center justify-content-center"
                     href="https://www.linkedin.com/in/ceres-cook-432989176/"
                     rel="noreferrer"
                     target="_blank">
                     <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style={styles.icon}/>
-                    LinkedIn
+                    My LinkedIn
                 </a>
                 
             </h5>
