@@ -32,16 +32,18 @@ const About = () => (
                         alt="Ceres Cook" />
                     
                     <h5 className="mb-5 text-center">
-                        What's up! I'm Ceres Cook, and welcome to my portfolio!
+                        What's up! I'm Ceres Cook, welcome to my portfolio!
                     </h5>
 
                     <p>
-                        I am an Operations Leadership professional and full-stack web developer currently living in Richmond, VA.
+                        I am an Operations Management Leader and full-stack web Developer currently living in Richmond, VA.
                     </p>
 
-                    <p className='mb-5'>
+                    <p>
                         I am a dedicated and self-starting individual who cares about others and works well across multiple teams and networks. I love learning, challenging what I know, and problem solving.
                     </p>
+
+                    <p className='mb-5'> As I have grown as a web developer I have rekindle my passion for design and enhancing user experiences. I am excited to continue to grow and learn as a developer and designer. </p>
 
                     <p>In my free time, I enjoy gaming, watching great cinema, listening to punk and hip-hop and most importantly puppies! 🐶
 

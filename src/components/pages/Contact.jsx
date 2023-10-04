@@ -1,6 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
-import { emailCheck } from '../../utils/helper';
 
 const styles = {
     jumbotron: {
@@ -20,131 +18,49 @@ const styles = {
 }
 
 
-export default function Contact() {
-    const [email, setEmail] = useState('');
-    const [userName, setUserName] = useState('');
-    const [message, setMessage] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
-
-    const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
-        const { name, value } = e.target;
-
-        // set state according to the type of input field
-        if (name === 'email') {
-            setEmail(value);
-        } else if (name === 'message') {
-            setMessage(value);
-        } else {
-            setUserName(value);
-        }
-    };
-
-    // handle blur event, check if the input is empty
-    const handleBlur = (e) => {
-        // Getting the name of the input which triggered the blur event
-        const { name, value } = e.target;
-
-        // Check if the input is empty and set the error message
-        if (value.trim() === '') {
-            setErrorMessage(`${name} is a required field.`);
-        } else {
-            setErrorMessage('');
-        }
-    };
-
-    const handleFormSubmit = (e) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
-        e.preventDefault();
-        setErrorMessage('');
-
-        // First we check to see if the email is not valid. If so, we set an error message to be displayed on the page.
-        if (!emailCheck(email)) {
-            setErrorMessage('Email is not valid');
-            return;
-        }
-        if (userName.length < 3) {
-            setErrorMessage('User name is not valid, must have at least 3 characters');
-            return;
-        }
-        if (message.length < 10) {
-            setErrorMessage('Message is not valid, must have at least 10 characters');
-            return;
-        }
-
-        alert(`Hello ${userName}, we will contact you soon!`);
-
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
-        setUserName('');
-        setMessage('');
-        setEmail('');
-    };
-
-
-    return (
-        <div className="container">
+const Contact = () => (
+    <div className="container-sm container-md container-lg container-xl">
         <div className="jumbotron shadow" style={styles.jumbotron}>
-                <h3 className='text-center'>Hello {userName}! Interested in working together?</h3>
-                <p className='text-center'>Fill out the form below with a brief description of why you are reaching out in the 'Subject' section!</p>
-                <form className="form" onSubmit={handleFormSubmit}>
-                    <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
-                        <input
-                            value={email}
-                            name="email"
-                            onChange={handleInputChange}
-                            type="email"
-                            placeholder="Email address"
-                            required
-                            className="form-control"
-                            aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-default"
-                            // check if the input is empty
-                            onBlur={handleBlur}
-                        />
-                    </div>
-                    <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Name:</span>
-                        <input
-                            value={userName}
-                            name="userName"
-                            onChange={handleInputChange}
-                            type="text"
-                            placeholder="Name"
-                            required
-                            className="form-control"
-                            aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-default"
-                            onBlur={handleBlur}
-                        />
-                    </div>
-                    <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default"> Subject :</span>
-                        <input
-                            value={message}
-                            name="message"
-                            onChange={handleInputChange}
-                            type="text"
-                            placeholder="You should briefly describe why you are reaching out here."
-                            required
-                            className="form-control"
-                            aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-default"
-                            onBlur={handleBlur}
-                        />
-                    </div>
-                    <br />
-                    <button type="submit" className="btn btn-secondary btn-lg">Submit</button>
-                </form>
             
-            <div className="container text-center">
-                {errorMessage && (
-                    <div>
-                        <p className="error-text" style={{ fontSize: '20px' }}>{errorMessage}</p>
-                    </div>
-                )}
-                </div>
-            </div>
+            <h1 className="display-4 text-center">
+                I love to collab! Let's work together!
+            </h1><br/>
+
+            <h2 className='text-center'> If you are in need of; </h2><br/>
+            <ul className="list-group">
+                <p className="lead text-center"> 🌎 A full-stack web developer.. </p>
+                <p className="lead text-center"> 🚀 having a website or application built.. </p>
+                <p className="lead text-center"> 💪🏻 a team and project leader.. </p>
+                <p className="lead text-center"> 🗣️ OR just want to chat about code.. </p>
+            </ul>
+            <h5 className='text-center'>Please reach out to me via email or LinkedIn!</h5>
+            <br/>
+            
+            
+            
+            <h5 className="text-center">
+                 
+                <a className="text-center"
+                    href="mailto:ceres.markley@gmail.com"
+                    rel="noreferrer"
+                    target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/gmail.png" alt="Gmail" style={styles.icon}/>
+                    ceres.markley@gmail.com  
+                </a>
+                <br/>
+                <br/>
+                <a className="text-center"
+                    href="https://www.linkedin.com/in/ceres-cook-432989176/"
+                    rel="noreferrer"
+                    target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style={styles.icon}/>
+                    LinkedIn
+                </a>
+                
+            </h5>
+
         </div>
-);
-}
+    </div>
+)
+
+export default Contact;
